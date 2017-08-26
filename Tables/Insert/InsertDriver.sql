@@ -1,0 +1,22 @@
+insert into Driver (PersonID) values (1);
+insert into Driver (PersonID) values (2);
+insert into Driver (PersonID) values (3);
+insert into Driver (PersonID) values (4);
+insert into Driver (PersonID) values (5);
+insert into Driver (PersonID) values (6);
+insert into Driver (PersonID) values (7);
+insert into Driver (PersonID) values (8);
+insert into Driver (PersonID) values (9);
+insert into Driver (PersonID) values (10);
+insert into Driver (PersonID) values (11);
+insert into Driver (PersonID) values (12);
+insert into Driver (PersonID) values (13);
+insert into Driver (PersonID) values (14);
+insert into Driver (PersonID) values (15);
+insert into Driver (PersonID) values (16);
+insert into Driver (PersonID) values (17);
+insert into Driver (PersonID) values (18);
+insert into Driver (PersonID) values (19);
+insert into Driver (PersonID) values (20);
+
+Select * From Driver;

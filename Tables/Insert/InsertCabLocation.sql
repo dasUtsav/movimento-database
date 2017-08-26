@@ -1,0 +1,22 @@
+insert into CabLocation (CabID, Occupied, Latitude, Longitude) values (1, 'Unavailable', -6.6409658, 106.8030892);
+insert into CabLocation (CabID, Occupied, Latitude, Longitude) values (2, 'Free', 8.1113884, 123.8961588);
+insert into CabLocation (CabID, Occupied, Latitude, Longitude) values (3, 'Unoccupied', 25.941937, 117.365052);
+insert into CabLocation (CabID, Occupied, Latitude, Longitude) values (4, 'Unoccupied', 21.0033744, -89.6409417);
+insert into CabLocation (CabID, Occupied, Latitude, Longitude) values (5, 'Unoccupied', 58.610989, 24.5034541);
+insert into CabLocation (CabID, Occupied, Latitude, Longitude) values (6, 'Unavailable', -12.9316863, 34.2810541);
+insert into CabLocation (CabID, Occupied, Latitude, Longitude) values (7, 'Free', 43.0429124, 1.9038837);
+insert into CabLocation (CabID, Occupied, Latitude, Longitude) values (8, 'Unavailable', -9.9851249, 124.0585732);
+insert into CabLocation (CabID, Occupied, Latitude, Longitude) values (9, 'Unoccupied', 43.8457071, 87.5871999);
+insert into CabLocation (CabID, Occupied, Latitude, Longitude) values (10, 'Unoccupied', 42.280524, 118.928688);
+insert into CabLocation (CabID, Occupied, Latitude, Longitude) values (11, 'Unoccupied', '36.23472', '128.57278');
+insert into CabLocation (CabID, Occupied, Latitude, Longitude) values (12, 'Free', 57.8374522, 56.2706202);
+insert into CabLocation (CabID, Occupied, Latitude, Longitude) values (13, 'Unavailable', 14.6440549, 121.0286448);
+insert into CabLocation (CabID, Occupied, Latitude, Longitude) values (14, 'Free', 13.760522, -88.2680172);
+insert into CabLocation (CabID, Occupied, Latitude, Longitude) values (15, 'Unoccupied', 40.6945206, -7.8725232);
+insert into CabLocation (CabID, Occupied, Latitude, Longitude) values (16, 'Unoccupied', 59.3460413, 18.0639973);
+insert into CabLocation (CabID, Occupied, Latitude, Longitude) values (17, 'Free', 46.7803082, 14.9136917);
+insert into CabLocation (CabID, Occupied, Latitude, Longitude) values (18, 'Unavailable', 48.534282, 30.5234909);
+insert into CabLocation (CabID, Occupied, Latitude, Longitude) values (19, 'Unavailable', -34.6104702, -58.5278307);
+insert into CabLocation (CabID, Occupied, Latitude, Longitude) values (20, 'Unavailable', 5.623505, 10.2544044);
+
+select * from CabLocation;

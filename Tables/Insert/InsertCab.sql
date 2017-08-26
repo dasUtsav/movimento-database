@@ -1,0 +1,22 @@
+insert into Cab (RegistrationNumber, ModelName, CompanyName, DriverID, TypeID) values ('670424293-7', 'Corolla', 'Toyota', 1, 2);
+insert into Cab (RegistrationNumber, ModelName, CompanyName, DriverID, TypeID) values ('489493257-1', 'Impreza', 'Subaru', 2, 1);
+insert into Cab (RegistrationNumber, ModelName, CompanyName, DriverID, TypeID) values ('488683984-3', 'Suburban 2500', 'Chevrolet', 3, 3);
+insert into Cab (RegistrationNumber, ModelName, CompanyName, DriverID, TypeID) values ('174146069-7', 'Tacoma Xtra', 'Toyota', 4, 2);
+insert into Cab (RegistrationNumber, ModelName, CompanyName, DriverID, TypeID) values ('676276527-0', 'LHS', 'Chrysler', 5, 1);
+insert into Cab (RegistrationNumber, ModelName, CompanyName, DriverID, TypeID) values ('927621098-9', 'F450', 'Ford', 6, 2);
+insert into Cab (RegistrationNumber, ModelName, CompanyName, DriverID, TypeID) values ('714651430-7', 'Versa', 'Nissan', 7, 3);
+insert into Cab (RegistrationNumber, ModelName, CompanyName, DriverID, TypeID) values ('042893326-2', 'STS-V', 'Cadillac', 8, 3);
+insert into Cab (RegistrationNumber, ModelName, CompanyName, DriverID, TypeID) values ('220267540-X', '940', 'Volvo', 9, 1);
+insert into Cab (RegistrationNumber, ModelName, CompanyName, DriverID, TypeID) values ('584816302-2', 'Sierra 3500', 'GMC', 10, 4);
+insert into Cab (RegistrationNumber, ModelName, CompanyName, DriverID, TypeID) values ('236606365-2', 'H2', 'Hummer', 11, 1);
+insert into Cab (RegistrationNumber, ModelName, CompanyName, DriverID, TypeID) values ('928361977-3', 'Quattro', 'Audi', 12, 3);
+insert into Cab (RegistrationNumber, ModelName, CompanyName, DriverID, TypeID) values ('312396266-0', 'Grand Cherokee', 'Jeep', 13, 3);
+insert into Cab (RegistrationNumber, ModelName, CompanyName, DriverID, TypeID) values ('094069595-2', 'Diamante', 'Mitsubishi', 14, 4);
+insert into Cab (RegistrationNumber, ModelName, CompanyName, DriverID, TypeID) values ('558529038-X', 'Gemini', 'Pontiac', 15, 1);
+insert into Cab (RegistrationNumber, ModelName, CompanyName, DriverID, TypeID) values ('960913554-4', 'A6', 'Audi', 16, 3);
+insert into Cab (RegistrationNumber, ModelName, CompanyName, DriverID, TypeID) values ('634736231-7', 'Vanquish S', 'Aston Martin', 17, 1);
+insert into Cab (RegistrationNumber, ModelName, CompanyName, DriverID, TypeID) values ('308024915-1', 'Daewoo Lacetti', 'Suzuki', 18, 3);
+insert into Cab (RegistrationNumber, ModelName, CompanyName, DriverID, TypeID) values ('478218811-0', 'CR-V', 'Honda', 19, 4);
+insert into Cab (RegistrationNumber, ModelName, CompanyName, DriverID, TypeID) values ('074945343-5', 'Elise', 'Lotus', 20, 1);
+
+Select * from Cab;
