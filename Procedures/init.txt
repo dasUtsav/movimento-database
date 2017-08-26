@@ -1,0 +1,7 @@
+===== Initialisation file =====
+
+This file is used just to initialise a directory.
+Empty directories are not recognised by git.
+To push the empty directory into the repository, this file is used.
+
+===============================
