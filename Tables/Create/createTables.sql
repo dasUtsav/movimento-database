@@ -126,8 +126,8 @@ CREATE TABLE Ride (
 CREATE TABLE Promos (
 	-- Columns --
 	CustomerID		int FOREIGN KEY REFERENCES Customer(CustomerID),
-	PromoCode		int UNIQUE NOT NULL,
-	Amount			int,
+	PromoCode		varchar(10) NOT NULL,
+	Amount			money
 	isRedeemed		bit
 );
 
