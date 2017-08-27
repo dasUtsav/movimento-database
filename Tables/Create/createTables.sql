@@ -127,7 +127,7 @@ CREATE TABLE Promos (
 	-- Columns --
 	CustomerID		int FOREIGN KEY REFERENCES Customer(CustomerID),
 	PromoCode		varchar(10) NOT NULL,
-	Amount			money
+	Amount			money,
 	isRedeemed		bit
 );
 
