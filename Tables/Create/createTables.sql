@@ -103,6 +103,8 @@ CREATE TABLE Passbook (
 	CONSTRAINT chk_balance CHECK ( Balance > 100)
 );
 
+ALTER TABLE Passbook ALTER COLUMN Balance int;
+
 CREATE TABLE Ride (
 	-- Columns --
 	RideID			int PRIMARY KEY,
