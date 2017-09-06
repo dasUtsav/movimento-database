@@ -81,6 +81,8 @@ CREATE TABLE CabLocation (
 	CONSTRAINT chk_occupied CHECK (Occupied IN ('Free', 'Unoccupied', 'Unavailable')) 
 );
 
+ALTER TABLE CabCondition ADD ConditionID INT IDENTITY(1, 1) PRIMARY KEY;
+
 CREATE TABLE Reservation (
 	-- Columns --
 	FromLongitude	decimal NOT NULL,
@@ -90,17 +92,20 @@ CREATE TABLE Reservation (
 	CustomerID		int FOREIGN KEY REFERENCES Customer(CustomerID),
 );
 
+Select * from Reservation;
+ALTER TABLE Reservation ADD CabID INT FOREIGN KEY REFERENCES Cab(CabID);
+
 CREATE TABLE Passbook (
 	-- Columns --
 	TransactionID	int PRIMARY KEY IDENTITY (1,1),
 	CustomerID		int FOREIGN KEY REFERENCES Customer(CustomerID),
-	Balance			int NOT NULL,
+	Balance			int NOT NULL DEFAULT 100,
 	Debit			int,
 	Credit			int,
 	TransactionDate date,
 
 	-- Constraints --
-	CONSTRAINT chk_balance CHECK ( Balance > 100)
+	CONSTRAINT chk_balance CHECK ( Balance >= 100)
 );
 
 CREATE TABLE Ride (
