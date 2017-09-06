@@ -1,0 +1,4 @@
+ALTER TABLE Person ADD CHECK (Age >= 18);
+
+ALTER TABLE Passbook ADD CHECK (Balance >= 500);
+ALTER TABLE Passbook DROP CONSTRAINT CK__Passbook__Balanc__534D60F1;

@@ -108,6 +108,8 @@ CREATE TABLE Passbook (
 	CONSTRAINT chk_balance CHECK ( Balance >= 100)
 );
 
+ALTER TABLE Passbook ALTER COLUMN Balance int;
+
 CREATE TABLE Ride (
 	-- Columns --
 	RideID			int PRIMARY KEY,
@@ -131,8 +133,8 @@ CREATE TABLE Ride (
 CREATE TABLE Promos (
 	-- Columns --
 	CustomerID		int FOREIGN KEY REFERENCES Customer(CustomerID),
-	PromoCode		int UNIQUE NOT NULL,
-	Amount			int,
+	PromoCode		varchar(10) NOT NULL,
+	Amount			money,
 	isRedeemed		bit
 );
 
